@@ -1,6 +1,6 @@
 // console.log("hello");
 
-$.ajax({
+// $.ajax({
 //     url:"api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=950dfad16d5b60de1c8af62bca1e3577"
 // }).then(
 //     (data)=>{
@@ -84,8 +84,12 @@ $(()=>{
 
 //add a pop up modal
 //add a carousel of say 10 images.
+// change the temp from kelvin to fahrenheit
 
-// homework I use to code along my app.js above. 
+
+
+
+// homework I used to code along my app.js above. 
 //  $(() => {
 //   $(".button").on("click", (event) => {
 //     event.preventDefault();
