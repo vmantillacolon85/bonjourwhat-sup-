@@ -40,7 +40,7 @@
 //         (data)=>{
 //             console.log(data);
 //             $("#name").html(data.name);
-//             $("#main").html(data.main); // the main is an array
+//             $("#main").html(data.main); // the main is an object
 //             $("#weather").html(data.weather); // the weather is an array.
 //         },
 //         ()=>{
@@ -85,6 +85,8 @@ $(()=>{
 //add a pop up modal
 //add a carousel of say 10 images.
 // change the temp from kelvin to fahrenheit
+
+
 
 
 
