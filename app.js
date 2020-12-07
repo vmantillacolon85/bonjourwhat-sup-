@@ -50,6 +50,26 @@
 //     })
 // })
 
+$(()=>{
+  const $openBtn = $("#openModal"); // grabbing the "About the Weather App" button
+  const $modal = $("modal"); //grabbing the modal element
+  const $closeBtn = $("#close"); // grabbing the "Close" button
+
+  const openModal = () => { //adding an event handler to open the modal
+    $modal.css("display", "block");
+    }
+
+  const closeModal = () => { //adding an event handler to close the modal
+    $modal.css("display", "none");
+    }
+
+
+  $openBtn.on("click", openModal); // adding an event listener to the "About the Weather App" button
+  $closeBtn.on("click", closeModal); // adding an event listener to close the modal
+
+  setTimeout(openModal, 5000); //the modal will open in the amount of time set
+
+});
 
 
 $(()=>{
