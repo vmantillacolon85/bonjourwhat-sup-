@@ -1,7 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&family=Secular+One&display=swap');
+
+
 body {
 
 }
 
+#modal {
+  background-color: rgba (0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+  display: none;
+}
+
+#modal-textbox {
+  background-color: white;
+  height: 350em;
+  width: 550em;
+  border-radius: 2em;
+  margin: 150em auto;
+  box-shadow: 0 2em 2em rgba(0,0,0,0.2);
+  padding: 2%;
+  line-height: 120%;
+}
+
+#modal-footer {
+  padding: 2%;
+  line-height: 120%;
+  text-align: right;
+}
+
+h1 {
+  padding-bottom: 25em;
+}
+
+.modal-buttons {
+  padding: 14em 18em;
+  background-color: #677996;
+  border: none;
+  outline: none;
+  border-radius: 3em;
+  color: white;
+  font-family: "Sansita Swashed", serif;
+  cursor: pointer;
+
+}
 form {
 
 }
@@ -11,6 +58,7 @@ form {
 }
 
 h1 {
+  text-align: center;
 
 }
 
@@ -34,4 +82,3 @@ a links social media {
 footer form {
 
 }
-
