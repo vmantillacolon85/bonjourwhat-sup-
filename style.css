@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&family=Secular+One&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 * {
   font-family: sans-serif;
   border: .5px solid gold;
 }
 
+=======
+>>>>>>> d67945fbc753ac2d76748cfff88a479608a0f87a
 
 
 body {
@@ -14,16 +17,62 @@ body {
 }
 
 #modal {
+<<<<<<< HEAD
   /* background-color: rgba (0,0,0,0.4); */
   background-color: red;
   position: fixed;
   top: 0;
   left: 0;
   width: 600px;
+=======
+  background-color: rgba (0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+>>>>>>> d67945fbc753ac2d76748cfff88a479608a0f87a
   z-index: 1;
   overflow: auto;
   display: none;
 }
+<<<<<<< HEAD
+=======
+
+#modal-textbox {
+  background-color: white;
+  height: 350em;
+  width: 550em;
+  border-radius: 2em;
+  margin: 150em auto;
+  box-shadow: 0 2em 2em rgba(0,0,0,0.2);
+  padding: 2%;
+  line-height: 120%;
+}
+
+#modal-footer {
+  padding: 2%;
+  line-height: 120%;
+  text-align: right;
+}
+
+h1 {
+  padding-bottom: 25em;
+}
+
+.modal-buttons {
+  padding: 14em 18em;
+  background-color: #677996;
+  border: none;
+  outline: none;
+  border-radius: 3em;
+  color: white;
+  font-family: "Sansita Swashed", serif;
+  cursor: pointer;
+
+}
+form {
+>>>>>>> d67945fbc753ac2d76748cfff88a479608a0f87a
 
 #modal-textbox {
   background-color: white;
@@ -49,6 +98,7 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
   /* padding-bottom: 25em; */
 }
 
@@ -61,6 +111,9 @@ h1 {
   color: white;
   font-family: "Sansita Swashed", serif;
   cursor: pointer;
+=======
+  text-align: center;
+>>>>>>> d67945fbc753ac2d76748cfff88a479608a0f87a
 
 }
 
@@ -144,6 +197,7 @@ p {
   max height: 100px;
   display: flex;
 }
+<<<<<<< HEAD
 
 .madewithlove{
   display: flex;
@@ -159,3 +213,5 @@ h5 {
   color: white;
   font-weight: bolder;
 }
+=======
+>>>>>>> d67945fbc753ac2d76748cfff88a479608a0f87a

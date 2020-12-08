@@ -7,37 +7,14 @@
     <script src="app.js"></script>
   </head>
   <body>
-   <button class="modal-buttons" id="openModal">About the Weather App</button>
-      <div id="modal">
-        <div id="modal-textbox">
-          <h1>Welcome to the Bonjour/What's Up? Weather App!</h1>
-            <p>I was inspired to create a weather app so that I can look up the weather of my favorite cities. I also wanted to showcase the beautiful work of Vahram Muraytan whose book 100 postcards comparing "Paris vs New York" is one of my favorites.</p>
-
-            <p>You can enter the name of a city, such as "Paris" or "New York" and you will retrieve the city's weather information including Temperature, Wind and an overall Description. Then persuse through the Muraytan's whimsical illustrations.</p>
-
-            <p> Lastly, don't forget to fill out the form so that we can create more exciting comparisons of your favorites cities. Here's to more travel in 2021 and beyond! Bon voyage and safe travels:)</p>
-
-            <div id ="modal-footer">
-              <button class="modal-buttons" id="close" href="#">Close</button>
-            </div>
-
+    
    <h1>Welcome to the Bonjour/What's Up? Weather App!</h1>
-
-            <p>You can enter the name of a city, such as "Paris" or "New York" and you will retrieve the city's weather information including Temperature, Wind and an overall Description. Then persuse through the Muraytan's whimsical illustrations.</p>
-
-            <p> Lastly, don't forget to fill out the form so that we can create more exciting comparisons of your favorites cities. Here's to more travel in 2021 and beyond! Bon voyage and safe travels:)</p>
-
-            <div id ="modal-footer">
-              <button class="modal-buttons" id="close" href="#">Close</button>
-            </div>
-
-   <h1>Welcome to the Bonjour/What's Up? Weather App!</h1>
-
+	  
     <form>
 	     <input type="text" placeholder="paris or new york?"/>
 	      <input type="submit" value="Check out the weather!" />
     </form>
-
+   
     <div class="weathercontainer">
     <h2> Today's weather is as follows:</h2>
       <dl>
@@ -46,7 +23,7 @@
 
 	      <dt>Temperature</dt>
 	       <dd id="temp"></dd>
-
+	      
 	      <dt>Wind</dt>
           	<dd id="wind"></dd>
 
@@ -74,7 +51,7 @@
          <img src="https://i.imgur.com/joOEP4u.jpg" alt="jeanpaul" width="600" height="450"/>
          <p>Everybody knows Jean Paul is much more fun! I do love a cablkeknit sweater. Liberte, Egalitie, Fraternite!</p>
          <hr />
-
+	      
 	 <img src="https://i.imgur.com/MDmVr59.jpg" alt="hipster" width="600" height="450"/>
          <p>To be political or not to be political, that is the difference!</p>
          <hr />
@@ -90,7 +67,7 @@
          <img src="https://i.imgur.com/SjILxgd.jpg" alt="pastrami" width="600" height="450"/>
          <p>No questions, pastrami on a croissant.</p>
          <hr />
-
+	      
 	 <img src="https://i.imgur.com/D2TKndf.jpg" alt="anna" width="600" height="450"/>
          <p>Creative or critic?</p>
          <hr />
@@ -108,7 +85,7 @@
          <hr />
     </div>
         <br>
-
+	 
     <div class="fieldset">
       <fieldset>
       <legend>
@@ -138,7 +115,7 @@
           <option value="NorthAmerica">Los Angeles vs Toronto</option>
         </select>
       </p>
-
+	    
      <p>
       <label for="FavoriteTravel">
         What is your favorite place to travel?
@@ -146,7 +123,7 @@
       <br />
       <textarea name="favetravel" rows="8" cols="80"></textarea>
     </p>
-
+	   
      <p>
       <label>
         Enter your email for updates:
@@ -158,62 +135,18 @@
       <input type="submit" name="signup!" value="SignUp!" />
     </p>
     </fieldset>
-
+  
    <div class="footersection">
       <img src="https://i.imgur.com/05IhqgR.png" alt="facebook">
       <img src="https://i.imgur.com/5iHNjAH.png" alt="instagram">
     </div>
-
+	  
    <div class="madewithlove">
       <h5>Made with &hearts; in my apartment</h5>
     </div>
 
   </body>
-
-     <p>
-      <label for="comparecities">
-        Which cities should we compare next?
-      </label>
-        <select name="cities" id="comparecities">
-          <option value="Asia">Hong Kong vs Tokyo vs Seoul</option>
-          <option value="SouthAmerica">Rio de Janeiro vs Buenos Aires vs Bogota</option>
-          <option value="Europe">Barcelona vs Madrid</option>
-          <option value="Africa">Capetown vs Lagos</option>
-          <option value="NorthAmerica">Los Angeles vs Toronto</option>
-        </select>
-      </p>
-
-     <p>
-      <label for="FavoriteTravel">
-        What is your favorite place to travel?
-      </label>
-      <br />
-      <textarea name="favetravel" rows="8" cols="80"></textarea>
-    </p>
-
-     <p>
-      <label>
-        Enter your email for updates:
-      </label>
-    </p>
-
-      <p>
-      <input type="text" name="email" />
-      <input type="submit" name="signup!" value="SignUp!" />
-    </p>
-    </fieldset>
-
-   <div class="footersection">
-      <img src="https://i.imgur.com/05IhqgR.png" alt="facebook">
-      <img src="https://i.imgur.com/5iHNjAH.png" alt="instagram">
-    </div>
-
-   <div class="madewithlove">
-      <h5>Made with &hearts; in my apartment</h5>
-    </div>
-
-  </body>
-
+	
 </html>
 
 <!-- change the temp to f instead of the current degree spec which is kelvin  -->
