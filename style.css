@@ -141,6 +141,10 @@ section {
   max-width: 100%;
 }
 
+.caption {
+  width: 600px;
+}
+
 h4 {
   color: #ce67db;
   font-weight: bold;

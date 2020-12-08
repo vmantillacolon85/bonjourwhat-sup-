@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 // console.log("hello");
 
->>>>>>> c4fd7ca82c04eca5e6f3e0526d5082db1df26ca7
 $(()=>{
   const $openBtn = $("#openModal"); // grabbing the "About the Weather App" button
   const $modal = $("#modal"); //grabbing the modal element
@@ -35,7 +32,7 @@ $(()=>{
         const userInput = $('input[type="text"]').val();
 
     $.ajax({
-        url:'https://api.openweathermap.org/data/2.5/weather?q=' +userInput + '&appid=950dfad16d5b60de1c8af62bca1e3577'
+        url:'https://api.openweathermap.org/data/2.5/weather?q=' +userInput + '&appid=950dfad16d5b60de1c8af62bca1e3577&units=imperial'
         // url: `https://api.openweathermap.org/data/2.5/weather?q=name=${name.toUpperCase()}&main=${main.toUpperCase()}&weather=${weather.toUpperCase()}` +userInput +'&appid={950dfad16d5b60de1c8af62bca1e3577'
 
     }).then(
@@ -54,12 +51,8 @@ $(()=>{
       );
     })
 })
-<<<<<<< HEAD
-=======
-
 
 
 
 //add a carousel of say 10 images.
 // <!-- change the temp to f instead of the current degree spec which is kelvin  -->
->>>>>>> c4fd7ca82c04eca5e6f3e0526d5082db1df26ca7
