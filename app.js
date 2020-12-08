@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 // console.log("hello");
 
->>>>>>> c4fd7ca82c04eca5e6f3e0526d5082db1df26ca7
 $(()=>{
   const $openBtn = $("#openModal"); // grabbing the "About the Weather App" button
   const $modal = $("#modal"); //grabbing the modal element
@@ -54,12 +51,9 @@ $(()=>{
       );
     })
 })
-<<<<<<< HEAD
-=======
 
 
 
 
 //add a carousel of say 10 images.
 // <!-- change the temp to f instead of the current degree spec which is kelvin  -->
->>>>>>> c4fd7ca82c04eca5e6f3e0526d5082db1df26ca7
