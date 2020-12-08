@@ -1,4 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+* {
+  font-family: sans-serif;
+  border: .5px solid gold;
+}
+
+
+
 body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#modal {
+  /* background-color: rgba (0,0,0,0.4); */
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 600px;
+  z-index: 1;
+  overflow: auto;
+  display: none;
+}
+
+#modal-textbox {
+  background-color: white;
+  /* height: 500px;
+  width: 500px; */
+  border-radius: 2em;
+  /* margin: 150em auto; */
+  box-shadow: 0 2em 2em rgba(0,0,0,0.2);
+  padding: 2%;
+  line-height: 120%;
+}
+
+#modal-textbox p {
+  color: blue;
+  font-size: 30px;
+
+}
+
+#modal-footer {
+  padding: 2%;
+  line-height: 120%;
+  text-align: right;
+}
+
+h1 {
+  /* padding-bottom: 25em; */
+}
+
+.modal-buttons {
+  /* padding: 14em 18em; */
+  background-color: #677996;
+  border: none;
+  outline: none;
+  border-radius: 3em;
+  color: white;
+  font-family: "Sansita Swashed", serif;
+  cursor: pointer;
+
+}
+
+/* style the css so that the images fall into a grid like flowerbox or the grid example */
+
+.welcome {
+
+}
+
+h2{
 
 }
 
@@ -6,32 +78,84 @@ form {
 
 }
 
-.container {
+.weathercontainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+h3 {
+  text-align: center;
 
 }
 
-h1 {
-
-}
 
 dl section {
 
 }
 
-img div {
- /* flex box the images */
- /* 2 columns  */
+article {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-footer div {
+section {
+  width: 43%;
+  display: block;
+}
+
+.parisnycimages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+}
+
+h4 {
+  color: ##ce67db;
+  font-weight: bold;
+}
+
+
+.fieldset {
+  background-color: #c7f5ff;
+  font-family: "Padauk", sans-serif;
 
 }
 
-a links social media {
+p {
+  color: #61b04d;
+  font-weight: bold;
+  display: inline;
+  justify-content: flex-start;
+}
+/* more with this fieldset /// */
+
+.footersection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffefc7;
+  flex-direction: row;
+}
+
+.footersection>img {
+  max-with: 100px;
+  max height: 100px;
+  display: flex;
+}
+
+.madewithlove{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Sansita Swashed", serif;
+  background-color: #ffc7c7;
 
 }
 
-footer form {
-
+h5 {
+  color: white;
+  font-weight: bolder;
 }
-
