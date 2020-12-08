@@ -5,6 +5,7 @@
     <title></title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
    <button class="modal-buttons" id="openModal">About the Weather App</button>
@@ -20,200 +21,177 @@
             <div id ="modal-footer">
               <button class="modal-buttons" id="close" href="#">Close</button>
             </div>
+          </div>
+        </div>
 
-   <h1>Welcome to the Bonjour/What's Up? Weather App!</h1>
 
-            <p>You can enter the name of a city, such as "Paris" or "New York" and you will retrieve the city's weather information including Temperature, Wind and an overall Description. Then persuse through the Muraytan's whimsical illustrations.</p>
+      <div class="welcome">
+          <h2>Welcome to the Bonjour/What's Up? Weather App!</h2>
 
-            <p> Lastly, don't forget to fill out the form so that we can create more exciting comparisons of your favorites cities. Here's to more travel in 2021 and beyond! Bon voyage and safe travels:)</p>
-
-            <div id ="modal-footer">
-              <button class="modal-buttons" id="close" href="#">Close</button>
-            </div>
-
-   <h1>Welcome to the Bonjour/What's Up? Weather App!</h1>
-
-    <form>
-	     <input type="text" placeholder="paris or new york?"/>
-	      <input type="submit" value="Check out the weather!" />
-    </form>
-
-    <div class="weathercontainer">
-    <h2> Today's weather is as follows:</h2>
-      <dl>
-	      <dt>Name</dt>
-	        <dd id="name"></dd>
-
-	      <dt>Temperature</dt>
-	       <dd id="temp"></dd>
-
-	      <dt>Wind</dt>
-          	<dd id="wind"></dd>
-
-	      <dt>Conditions</dt>
-	       <dd id="conditions"></dd>
-
-         	<dt>Description</dt>
- 	       <dd id="description"></dd>
-      </dl>
+        <form>
+	        <input type="text" placeholder="paris or new york?"/>
+	        <input type="submit" value="Check out the weather!" />
+        </form>
       </div>
 
-      <div class="parisnycimages">
-         <img src="https://i.imgur.com/ubWt4tk.jpg" alt="hotdog" width="600" height="450"/>
-         <p>I would go for the croque monsieur as I think the BEC should represent NYC instead of the hot dog. But that's just my opinion.</p>
-         <hr />
+      <div class="weathercontainer">
+      <h3> Today's weather is as follows:</h3>
+        <dl>
+  	      <dt>Name</dt>
+  	        <dd id="name"></dd>
 
-         <img src="https://i.imgur.com/8K9GPge.jpg" alt="ilny" width="600" height="450"/ >
-         <p>What's look better on merch? Duh, I love New York!</p>
-         <hr />
+  	      <dt>Temperature</dt>
+  	       <dd id="temp"></dd>
 
-         <img src="https://i.imgur.com/dyj4kAq.jpg" alt="baguette" width="600" height="450"/>
-         <p>Definitely going with the baguette. The versatility people!</p>
-         <hr />
+           <dt>Wind</dt>
+            <dd id="wind"></dd>
 
-         <img src="https://i.imgur.com/joOEP4u.jpg" alt="jeanpaul" width="600" height="450"/>
-         <p>Everybody knows Jean Paul is much more fun! I do love a cablkeknit sweater. Liberte, Egalitie, Fraternite!</p>
-         <hr />
+  	      <dt>Conditions</dt>
+  	       <dd id="conditions"></dd>
 
-	 <img src="https://i.imgur.com/MDmVr59.jpg" alt="hipster" width="600" height="450"/>
-         <p>To be political or not to be political, that is the difference!</p>
-         <hr />
+           <dt>Description</dt>
+   	       <dd id="description"></dd>
+        </dl>
+      </div>
 
-         <img src="https://i.imgur.com/U2GI2qx.jpg" alt="ameliecarrie" width="600" height="450"/>
-         <p>I saw Sarah Jessica Parker once on the street. Live! But, honestly this comparison is so Carrie Bradshaw its not even funny!</p>
-         <hr />
+      <article class="parisnycimages">
+        <section>
+           <img src="https://i.imgur.com/ubWt4tk.jpg" alt="hotdog" width="600" height="450"/>
+           <h4>I would go for the croque monsieur as I think the BEC should represent NYC instead of the hot dog. But that's just my opinion.</h4>
+        </section>
+           <hr />
 
-         <img src="https://i.imgur.com/2ybg2wX.jpg" alt="coffee" width="600" height="450"/>
-         <p>Je voudrais deux shots, shots, shots of espesso, merci beaucoup!.</p>
-         <hr />
+        <section>
+           <img src="https://i.imgur.com/8K9GPge.jpg" alt="ilny" width="600" height="450"/ >
+           <h4>What's look better on merch? Duh, I love New York!</h4>
+         </section>
+            <hr />
 
-         <img src="https://i.imgur.com/SjILxgd.jpg" alt="pastrami" width="600" height="450"/>
-         <p>No questions, pastrami on a croissant.</p>
-         <hr />
+        <section>
+           <img src="https://i.imgur.com/dyj4kAq.jpg" alt="baguette" width="600" height="450"/>
+           <h4>Definitely going with the baguette. The versatility people!</h4>
+        </section>
+            <hr />
 
-	 <img src="https://i.imgur.com/D2TKndf.jpg" alt="anna" width="600" height="450"/>
-         <p>Creative or critic?</p>
-         <hr />
+        <section>
+           <img src="https://i.imgur.com/joOEP4u.jpg" alt="jeanpaul" width="600" height="450"/>
+           <h4>Everybody knows Jean Paul is much more fun! I do love a cablkeknit sweater. Liberte, Egalitie, Fraternite!</h4>
+        </section>
+            <hr />
 
-         <img src="https://i.imgur.com/Y9vcsnI.jpg" alt="4course" width="600" height="450"/>
-         <p>One day I will run the NYC Marathon, until then, I will run to the nearest brasserie!</p>
-         <hr />
+        <section>
+           <img src="https://i.imgur.com/MDmVr59.jpg" alt="hipster" width="600" height="450"/>
+           <h4>To be political or not to be political, that is the difference!</h4>
+        </section>
+            <hr />
 
-         <img src="https://i.imgur.com/DiDIWBk.jpg" alt="ballet" width="600" height="450"/>
-         <p>I can't decide!</p>
-         <hr />
+        <section>
+           <img src="https://i.imgur.com/U2GI2qx.jpg" alt="ameliecarrie" width="600" height="450"/>
+           <h4>I saw Sarah Jessica Parker once on the street. Live! But, honestly this comparison is so Carrie Bradshaw its not even funny!</h4>
+        </section>
+            <hr />
 
-         <img src="https://i.imgur.com/elF6ZPj.jpg" alt="sinatra" width="600" height="450"/>
-         <p>Sinatra, New York, NY. Your welcome!</p>
-         <hr />
-    </div>
-        <br>
+        <section>
+           <img src="https://i.imgur.com/2ybg2wX.jpg" alt="coffee" width="600" height="450"/>
+           <h4>Je voudrais deux shots, shots, shots of espesso, merci beaucoup!.</h4>
+        </section>
+            <hr />
 
-    <div class="fieldset">
+        <section>
+           <img src="https://i.imgur.com/SjILxgd.jpg" alt="pastrami" width="600" height="450"/>
+           <h4>No questions, pastrami on a croissant.</h4>
+        </section>
+            <hr />
+
+        <section>
+           <img src="https://i.imgur.com/D2TKndf.jpg" alt="anna" width="600" height="450"/>
+           <h4>Creative or critic?</h4>
+        </section>
+            <hr />
+
+        <section>
+           <img src="https://i.imgur.com/Y9vcsnI.jpg" alt="4course" width="600" height="450"/>
+           <h4>One day I will run the NYC Marathon, until then, I will run to the nearest brasserie!</h4>
+        </section>
+            <hr />
+
+        <section>
+           <img src="https://i.imgur.com/DiDIWBk.jpg" alt="ballet" width="600" height="450"/>
+           <h4>I can't decide!</h4>
+        </section>
+            <hr />
+
+        <section>
+           <img src="https://i.imgur.com/elF6ZPj.jpg" alt="sinatra" width="600" height="450"/>
+           <h4>Sinatra, New York, NY. Your welcome!</h4>
+        </section>
+            <hr />
+
+      </article>
+          <br>
+
+      <div class="fieldset">
+
       <fieldset>
-      <legend>
-        Your Suggestions:
-      </legend>
-      <p>
-      <label for="faveseson">
-        What is your favorite season to travel?
-      </label>
-        <select name="Season" id="faveseason">
-          <option value="fall">Fall</option>
-          <option value="winter">Winter</option>
-          <option value="spring">Spring</option>
-          <option value="summer">Summer</option>
-        </select>
+        <legend>
+          Your Suggestions:
+        </legend>
+        <p>
+        <label for="faveseson">
+          What is your favorite season to travel?
+        </label>
+          <select name="Season" id="faveseason">
+            <option value="fall">Fall</option>
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+          </select>
+        </p>
+
+        <p>
+        <label for="comparecities">
+          Which cities should we compare next?
+        </label>
+          <select name="cities" id="comparecities">
+            <option value="Asia">Hong Kong vs Tokyo vs Seoul</option>
+            <option value="SouthAmerica">Rio de Janeiro vs Buenos Aires vs Bogota</option>
+            <option value="Europe">Barcelona vs Madrid</option>
+            <option value="Africa">Capetown vs Lagos</option>
+            <option value="NorthAmerica">Los Angeles vs Toronto</option>
+          </select>
+        </p>
+
+        <p>
+        <label for="FavoriteTravel">
+          What is your favorite place to travel?
+        </label>
+        <br />
+        <textarea name="favetravel" rows="8" cols="80"></textarea>
       </p>
 
-     <p>
-      <label for="comparecities">
-        Which cities should we compare next?
-      </label>
-        <select name="cities" id="comparecities">
-          <option value="Asia">Hong Kong vs Tokyo vs Seoul</option>
-          <option value="SouthAmerica">Rio de Janeiro vs Buenos Aires vs Bogota</option>
-          <option value="Europe">Barcelona vs Madrid</option>
-          <option value="Africa">Capetown vs Lagos</option>
-          <option value="NorthAmerica">Los Angeles vs Toronto</option>
-        </select>
+
+        <p>
+        <label>
+          Enter your email for updates:
+        </label>
       </p>
 
-     <p>
-      <label for="FavoriteTravel">
-        What is your favorite place to travel?
-      </label>
-      <br />
-      <textarea name="favetravel" rows="8" cols="80"></textarea>
-    </p>
-
-     <p>
-      <label>
-        Enter your email for updates:
-      </label>
-    </p>
-
-      <p>
-      <input type="text" name="email" />
-      <input type="submit" name="signup!" value="SignUp!" />
-    </p>
-    </fieldset>
-
-   <div class="footersection">
-      <img src="https://i.imgur.com/05IhqgR.png" alt="facebook">
-      <img src="https://i.imgur.com/5iHNjAH.png" alt="instagram">
-    </div>
-
-   <div class="madewithlove">
-      <h5>Made with &hearts; in my apartment</h5>
-    </div>
-
-  </body>
-
-     <p>
-      <label for="comparecities">
-        Which cities should we compare next?
-      </label>
-        <select name="cities" id="comparecities">
-          <option value="Asia">Hong Kong vs Tokyo vs Seoul</option>
-          <option value="SouthAmerica">Rio de Janeiro vs Buenos Aires vs Bogota</option>
-          <option value="Europe">Barcelona vs Madrid</option>
-          <option value="Africa">Capetown vs Lagos</option>
-          <option value="NorthAmerica">Los Angeles vs Toronto</option>
-        </select>
+        <p>
+        <input type="text" name="email" />
+        <input type="submit" name="signup!" value="SignUp!" />
       </p>
-
-     <p>
-      <label for="FavoriteTravel">
-        What is your favorite place to travel?
-      </label>
-      <br />
-      <textarea name="favetravel" rows="8" cols="80"></textarea>
-    </p>
-
-     <p>
-      <label>
-        Enter your email for updates:
-      </label>
-    </p>
-
-      <p>
-      <input type="text" name="email" />
-      <input type="submit" name="signup!" value="SignUp!" />
-    </p>
-    </fieldset>
-
-   <div class="footersection">
-      <img src="https://i.imgur.com/05IhqgR.png" alt="facebook">
-      <img src="https://i.imgur.com/5iHNjAH.png" alt="instagram">
+      </fieldset>
     </div>
 
-   <div class="madewithlove">
-      <h5>Made with &hearts; in my apartment</h5>
-    </div>
+      <div class="footersection">
+        <img src="https://i.imgur.com/05IhqgR.png" alt="facebook">
+        <img src="https://i.imgur.com/5iHNjAH.png" alt="instagram">
+      </div>
 
-  </body>
+      <div class="madewithlove">
+        <h5>Made with &hearts; in my apartment</h5>
+      </div>
 
-</html>
+    </body>
 
-<!-- change the temp to f instead of the current degree spec which is kelvin  -->
+  </html>
