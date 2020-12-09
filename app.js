@@ -30,7 +30,7 @@ $(()=>{
         event.preventDefault();
 
         const userInput = $('input[type="text"]').val();
-
+// 
     $.ajax({
         url:'https://api.openweathermap.org/data/2.5/weather?q=' +userInput + '&appid=950dfad16d5b60de1c8af62bca1e3577&units=imperial'
         // url: `https://api.openweathermap.org/data/2.5/weather?q=name=${name.toUpperCase()}&main=${main.toUpperCase()}&weather=${weather.toUpperCase()}` +userInput +'&appid={950dfad16d5b60de1c8af62bca1e3577'
