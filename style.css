@@ -1,3 +1,6 @@
+/* //////Imported Google Fonts ////// */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 /* * {
@@ -5,20 +8,21 @@
   border: .5px solid gold;
 } */
 
-
+/* ///// Main Body of Content ////// */
 
 body {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   background: url(https://i.imgur.com/4y0NMBT.jpg);
-  height: 200px;
+  /* height: 200px; */
   /* background-position: center; */
   background-repeat: repeat;
   background-size: cover;
   position: relative;
-
-
 }
+
+/* /////// Modal//////// */
+
 
 #modal {
   /* background-color: rgba (0,0,0,0.4); */
@@ -74,7 +78,7 @@ h1 {
 }
 
 /* style the css so that the images fall into a grid like flowerbox or the grid example */
-
+/* ///////jQuery form //// */
 .welcome {
 
 }
@@ -90,6 +94,8 @@ form {
 
 }
 
+
+/* ///////// Weather ////////// */
 .weathercontainer {
   display: flex;
   flex-wrap: nowrap;
@@ -104,25 +110,30 @@ h3 {
 }
 
 
-/* dl section {
+.weatherstats dl {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Padauk", sans-serif;
+  color: #d167db;
+  font-weight: bolder;
+  display: inline-flex;
+  flex-direction: row;
 }
-#name {
-  text-decoration: underline;
-}
-#temp {
-}
-#wind {
-}
-#conditions {
-}
-#description {
-} */
 
+.weatherstats dt {
+  padding: 0 10px;
+}
 
+.weatherstats dd {
+  padding: 0 10px;
+  margin-left: -10px;
+}
+
+/* ////////////// Images ////////// */
 article {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 section {
@@ -134,25 +145,31 @@ section {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 100%;
 }
 
 .caption {
-  width: 600px;
+  width: 100%;
 }
 
 h4 {
   color: #ce67db;
-  font-weight: bold;
+  font-weight: bolder;
   display: block;
 }
 
+/* ////////// Forms /////////*/
 
 .fieldset {
+  width: 100%;
   background-color: #c7f5ff;
   font-family: "Padauk", sans-serif;
-
 }
+
+textarea, select, input {
+  width: 100%;
+}
+
+
 
 p {
   color: #61b04d;
@@ -162,6 +179,8 @@ p {
 }
 /* more with this fieldset /// */
 
+
+/* /////Footer /////////// */
 .footersection {
   display: flex;
   justify-content: center;
@@ -189,4 +208,12 @@ p {
 h5 {
   color: white;
   font-weight: bolder;
+}
+
+/* /////////Media Queries//////// */
+@media screen and (max-width: 450px) {
+  .parisnycimages {
+    margin: auto;
+    width: 450px;
+  }
 }
